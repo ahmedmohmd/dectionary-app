@@ -3,6 +3,8 @@ import { json } from "@remix-run/node";
 import axios from "axios";
 import Navbar from "~/components/widgets/Navbar";
 import SearchInput from "~/components/widgets/SearchInput";
+import Word from "~/components/widgets/Word";
+import fetchWord from "~/utils/api/api";
 
 export const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData();
@@ -14,17 +16,8 @@ export const action: ActionFunction = async ({ request }) => {
     });
   }
 
-  try {
-    const { data } = await axios.get(
-      `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`
-    );
-
-    return json(data);
-  } catch (error: any) {
-    if (error?.response.status) {
-      return json({ message: "Sorry, Thsi Keyword Not Found! ☹" });
-    }
-  }
+  const result = await fetchWord(keyword);
+  return json(result);
 };
 
 export default function Index() {
@@ -32,6 +25,7 @@ export default function Index() {
     <>
       <Navbar />
       <SearchInput />
+      <Word />
     </>
   );
 }

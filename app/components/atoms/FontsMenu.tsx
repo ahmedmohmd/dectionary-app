@@ -9,13 +9,13 @@ const FontsMenu = () => {
     <select
       id="countries"
       onChange={handleSelect}
-      className="hover:text-primary duration-300 border-none text-gray-700 dark:text-gray-300 bg-transparent font-bold text-lg rounded-lg p-2.5 outline-none w-full cursor-pointer"
+      className="hover:text-primary dark:hover:text-primary duration-300 border-none text-gray-700 dark:text-gray-300 bg-transparent font-bold text-lg rounded-lg p-2.5 outline-none w-full cursor-pointer"
     >
       {[Font.SERIF, Font.SANS_SERIF, Font.MONOSPACE].map((font) => {
         return (
           <option
             key={font}
-            className="bg-white dark:bg-gray-900 text-gray-600 dark:text-slate-100 border-none font-semibold"
+            className="bg-white dark:bg-[#1f1f1f] text-gray-600 dark:text-gray-100 border-none font-semibold"
             value={font}
           >
             {font}

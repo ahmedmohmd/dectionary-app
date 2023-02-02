@@ -4,7 +4,7 @@ import ThemeToggler from "../atoms/ThemeToggler";
 
 const Navbar = () => {
   return (
-    <article className="container mx-auto px-4 w-full py-14 flex justify-between items-center">
+    <article className="container mx-auto px-4 lg:px-36 w-full py-14 flex justify-between items-center">
       <section>
         <GiBookCover className="duration-300 text-5xl dark:text-primary" />
         {/* <img

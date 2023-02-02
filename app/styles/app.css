@@ -1102,6 +1102,11 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .-mx-1\.5 {
   margin-left: -0.375rem;
   margin-right: -0.375rem;
@@ -1152,6 +1157,10 @@ input:checked + .toggle-bg {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mr-3 {
@@ -1970,6 +1979,11 @@ input:checked + .toggle-bg {
   background-color: rgb(253 232 232 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#e9d0fa\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 208 250 / var(--tw-bg-opacity));
+}
+
 .\!bg-transparent {
   background-color: transparent !important;
 }
@@ -2318,6 +2332,10 @@ input:checked + .toggle-bg {
   --tw-gradient-to: #FCE96A;
 }
 
+.fill-primary {
+  fill: #a744ee;
+}
+
 .fill-red-600 {
   fill: #E02424;
 }
@@ -2361,6 +2379,10 @@ input:checked + .toggle-bg {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-1\.5 {
@@ -2542,9 +2564,19 @@ input:checked + .toggle-bg {
   line-height: 1;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xs {
@@ -2555,11 +2587,6 @@ input:checked + .toggle-bg {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2622,6 +2649,11 @@ input:checked + .toggle-bg {
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(155 28 28 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(167 68 238 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -3657,9 +3689,9 @@ input {
   background-color: rgb(5 5 5 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-gray-900 {
+.dark .dark\:bg-\[\#1f1f1f\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:bg-gray-700 {
@@ -3667,14 +3699,14 @@ input {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-\[\#1f1f1f\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 31 31 / var(--tw-bg-opacity));
-}
-
 .dark .dark\:bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(240 82 82 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
 .dark .dark\:\!bg-transparent {
@@ -3836,6 +3868,11 @@ input {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
 .dark .dark\:text-primary {
   --tw-text-opacity: 1;
   color: rgb(167 68 238 / var(--tw-text-opacity));
@@ -3844,6 +3881,11 @@ input {
 .dark .dark\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-gray-400 {
@@ -3926,11 +3968,6 @@ input {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-gray-200 {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(240 82 82 / var(--tw-text-opacity));
@@ -3954,11 +3991,6 @@ input {
 .dark .dark\:text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-blue-300 {
@@ -4104,6 +4136,11 @@ input {
 .dark .dark\:hover\:bg-gray-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(167 68 238 / var(--tw-text-opacity));
 }
 
 .dark .dark\:hover\:text-white:hover {
@@ -4495,6 +4532,21 @@ input {
     padding: 0px;
   }
 
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -4532,5 +4584,10 @@ input {
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .lg\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 }

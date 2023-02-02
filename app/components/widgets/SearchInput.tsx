@@ -26,14 +26,14 @@ const SearchInput = () => {
   };
 
   return (
-    <Form method="post" className="container mx-auto px-4">
+    <Form method="post" className="container mx-auto px-4 lg:px-36">
       <div className="relative w-full">
         <input
           onFocus={handleFocus}
           onBlur={handleBlur}
           type="text"
           name="keyword"
-          className="bg-[#f4f4f4] border-none text-lg text-gray-600 rounded-lg block w-full  py-4 px-5 font-semibold  dark:bg-[#1f1f1f]  dark:placeholder-gray-400 dark:text-white placeholder:font-normal"
+          className="bg-[#f4f4f4] border-none text-xl text-gray-600 rounded-lg block w-full  py-4 px-5 font-semibold  dark:bg-[#1f1f1f]  dark:placeholder-gray-400 dark:text-white placeholder:font-normal"
           placeholder={placeholder}
         />
         <button
