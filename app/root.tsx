@@ -40,10 +40,7 @@ const App = () => {
         <Links />
       </head>
       <body>
-        <main
-          style={{ fontFamily: font }}
-          className="dark:bg-[#050505] min-w-[100vw] min-h-[100vh]"
-        >
+        <main style={{ fontFamily: font }}>
           <Outlet />
         </main>
         <ScrollRestoration />

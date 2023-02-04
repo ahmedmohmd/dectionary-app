@@ -12,6 +12,7 @@ import fetchWord from "~/utils/api/api";
 export const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData();
   const { keyword } = Object.fromEntries(formData);
+  className = "dark:bg-[#050505] min-w-[100vw] min-h-[100vh]";
 
   if (!keyword) {
     return json({
@@ -25,13 +26,13 @@ export const action: ActionFunction = async ({ request }) => {
 
 export default function Index() {
   return (
-    <>
+    <div className="dark:bg-[#050505] min-h-[100vh]">
       <Navbar />
       <SearchInput />
       <Word />
       <Noun />
       <Verb />
       <Source />
-    </>
+    </div>
   );
 }

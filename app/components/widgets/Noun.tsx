@@ -31,7 +31,7 @@ const Noun = () => {
         <h3 className="text-[#777] text-2xl  md:text-3xl dark:text-gray-50">
           Synoyms
         </h3>
-        <div className="text-primary flex justify-center items-center gap-2 font-extrabold text-2xl">
+        <div className="text-primary flex justify-center items-center gap-2 font-extrabold text-2xl flex-wrap">
           {data?.noun?.synonyms.map((synonym) => {
             return <span key={synonym}>{synonym}</span>;
           })}

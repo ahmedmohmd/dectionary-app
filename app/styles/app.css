@@ -1238,6 +1238,10 @@ input:checked + .toggle-bg{
   margin-top: 0.75rem;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -1743,10 +1747,6 @@ input:checked + .toggle-bg{
 
 .whitespace-nowrap{
   white-space: nowrap;
-}
-
-.break-words{
-  overflow-wrap: break-word;
 }
 
 .break-all{
@@ -2554,6 +2554,10 @@ input:checked + .toggle-bg{
 
 .pl-2{
   padding-left: 0.5rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .text-left{
