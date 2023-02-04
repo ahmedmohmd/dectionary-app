@@ -12,7 +12,6 @@ import fetchWord from "~/utils/api/api";
 export const action: ActionFunction = async ({ request }) => {
   const formData = await request.formData();
   const { keyword } = Object.fromEntries(formData);
-  className = "dark:bg-[#050505] min-w-[100vw] min-h-[100vh]";
 
   if (!keyword) {
     return json({
