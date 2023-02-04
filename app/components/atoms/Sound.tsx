@@ -21,12 +21,12 @@ const Sound = ({ audio }: Props) => {
       ></audio>
       <button
         onClick={() => audioTag.current?.play()}
-        className="bg-[#e9d0fa] p-3 middle:p-5 rounded-full flex justify-center items-center "
+        className="bg-[#e9d0fa] dark:bg-primary p-3 middle:p-5 rounded-full flex justify-center items-center "
       >
         {playing ? (
-          <BsSoundwave className="text-center text-4xl md:text-5xl fill-primary" />
+          <BsSoundwave className="text-center text-4xl md:text-5xl dark:fill-white fill-primary" />
         ) : (
-          <GiPlayButton className="text-center text-4xl md:text-5xl fill-primary" />
+          <GiPlayButton className="text-center text-4xl md:text-5xl dark:fill-white fill-primary" />
         )}
       </button>{" "}
     </div>

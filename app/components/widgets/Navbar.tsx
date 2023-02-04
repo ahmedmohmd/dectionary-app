@@ -16,7 +16,7 @@ const Navbar = () => {
 
       <section className="flex content-center items-center gap-3 md:gap-5">
         <FontsMenu />
-        <hr className="h-8 w-[3px] bg-[#ccc] dark:bg-slate-400/75" />
+        <div className="h-8 w-[4px] bg-[#ccc] dark:bg-slate-400/75 dark:!bg-[#424242] " />
         <ThemeToggler />
       </section>
     </article>

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,4 +7,28 @@
 select,
 input {
   --tw-ring-shadow: none !important;
+}
+
+ul {
+  padding-left: 30px;
+  margin-top: 14px;
+}
+
+ul li {
+  position: relative;
+  margin-left: 10px;
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #a744ee;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
 }

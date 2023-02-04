@@ -6,6 +6,9 @@ module.exports = {
     "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
+    fontFamily: {
+      charm: "Charm",
+    },
     extend: {},
     colors: {
       primary: "#a744ee",

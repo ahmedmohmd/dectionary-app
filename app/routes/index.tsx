@@ -2,7 +2,10 @@ import type { ActionFunction } from "@remix-run/node";
 import { json } from "@remix-run/node";
 import axios from "axios";
 import Navbar from "~/components/widgets/Navbar";
+import Noun from "~/components/widgets/Noun";
 import SearchInput from "~/components/widgets/SearchInput";
+import Source from "~/components/widgets/Source";
+import Verb from "~/components/widgets/Verb";
 import Word from "~/components/widgets/Word";
 import fetchWord from "~/utils/api/api";
 
@@ -26,6 +29,9 @@ export default function Index() {
       <Navbar />
       <SearchInput />
       <Word />
+      <Noun />
+      <Verb />
+      <Source />
     </>
   );
 }
