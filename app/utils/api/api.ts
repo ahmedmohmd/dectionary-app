@@ -34,7 +34,7 @@ const fetchWord = async (keyword: FormDataEntryValue) => {
       source,
     };
   } catch (error: any) {
-    return { message: "Sorry, Thsi Keyword Not Found! ☹" };
+    return { message: "Sorry, This Keyword Not Found! 😵" };
   }
 };
 

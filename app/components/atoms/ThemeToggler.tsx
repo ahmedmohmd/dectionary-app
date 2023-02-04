@@ -1,4 +1,3 @@
-// import { CiDark, CiLight } from "react-icons/ci";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { Theme } from "~/utils/config/constants";
 import useTheme from "~/utils/theme/useTheme";

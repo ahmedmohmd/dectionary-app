@@ -11,7 +11,7 @@ const FontsMenu = () => {
       onChange={handleSelect}
       className="hover:text-primary dark:hover:text-primary duration-300 border-none text-gray-700 dark:text-gray-300 bg-transparent font-bold text-lg rounded-lg p-2.5 outline-none w-full cursor-pointer"
     >
-      {[Font.SERIF, Font.SANS_SERIF, Font.MONOSPACE].map((font) => {
+      {[Font.SERIF, Font.ROBOTO, Font.MONOSPACE].map((font) => {
         return (
           <option
             key={font}

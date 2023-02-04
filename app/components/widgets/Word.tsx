@@ -18,7 +18,6 @@ const Word = () => {
           {data?.phonetic}
         </span>
       </section>
-
       {data?.audio ? <Sound audio={data?.audio} /> : null}
     </article>
   );

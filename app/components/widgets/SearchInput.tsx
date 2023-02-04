@@ -45,7 +45,7 @@ const SearchInput = () => {
       </div>
       {error ? (
         <div
-          className="font-sans p-4 mb-4 mt-2 text-sm text-red-800 rounded-lg bg-red-100 dark:bg-red-500 dark:text-white"
+          className="font-roboto p-4 mb-4 mt-2 text-sm text-red-800 rounded-lg bg-red-100 dark:bg-red-500 dark:text-white"
           role="alert"
         >
           {data.message}

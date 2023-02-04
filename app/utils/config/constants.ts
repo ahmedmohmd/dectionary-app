@@ -1,6 +1,6 @@
 enum Font {
   SERIF = "Serif",
-  SANS_SERIF = "Sans Serif",
+  ROBOTO = "Roboto",
   MONOSPACE = "Monospace",
 }
 

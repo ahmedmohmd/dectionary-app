@@ -8,7 +8,7 @@ const Verb = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 lg:px-36 my-8">
+    <div className="container mx-auto px-4 lg:px-36 mt-14">
       <div className="flex justify-between items-center gap-4">
         <span className="font-charm font-extrabold text-3xl dark:text-gray-50">
           verb

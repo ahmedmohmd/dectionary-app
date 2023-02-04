@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       charm: "Charm",
+      roboto: "Roboto",
     },
     extend: {},
     colors: {

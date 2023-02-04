@@ -1,6 +1,5 @@
 import type { ActionFunction } from "@remix-run/node";
 import { json } from "@remix-run/node";
-import axios from "axios";
 import Navbar from "~/components/widgets/Navbar";
 import Noun from "~/components/widgets/Noun";
 import SearchInput from "~/components/widgets/SearchInput";
@@ -15,7 +14,7 @@ export const action: ActionFunction = async ({ request }) => {
 
   if (!keyword) {
     return json({
-      message: "Sorry, This Filed Cannot Be Empty! ☹",
+      message: "Sorry, This Filed Cannot Be Empty! 😵",
     });
   }
 

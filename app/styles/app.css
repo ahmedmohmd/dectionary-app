@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Roboto&display=swap");
 
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
@@ -1242,6 +1242,14 @@ input:checked + .toggle-bg{
   margin-top: 0.75rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-14{
+  margin-top: 3.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1276,10 +1284,6 @@ input:checked + .toggle-bg{
 
 .h-7{
   height: 1.75rem;
-}
-
-.h-12{
-  height: 3rem;
 }
 
 .h-8{
@@ -1388,10 +1392,6 @@ input:checked + .toggle-bg{
   width: 3.5rem;
 }
 
-.w-12{
-  width: 3rem;
-}
-
 .w-\[4px\]{
   width: 4px;
 }
@@ -1457,16 +1457,16 @@ input:checked + .toggle-bg{
   width: 50%;
 }
 
+.w-12{
+  width: 3rem;
+}
+
 .w-16{
   width: 4rem;
 }
 
 .w-64{
   width: 16rem;
-}
-
-.min-w-\[100vw\]{
-  min-width: 100vw;
 }
 
 .max-w-sm{
@@ -2570,6 +2570,14 @@ input:checked + .toggle-bg{
 
 .font-charm{
   font-family: Charm;
+}
+
+.\!font-charm{
+  font-family: Charm !important;
+}
+
+.font-roboto{
+  font-family: Roboto;
 }
 
 .text-lg{
@@ -4537,20 +4545,12 @@ ul li::before {
     display: none;
   }
 
-  .md\:h-16{
-    height: 4rem;
-  }
-
   .md\:h-auto{
     height: auto;
   }
 
   .md\:h-full{
     height: 100%;
-  }
-
-  .md\:w-16{
-    width: 4rem;
   }
 
   .md\:w-48{

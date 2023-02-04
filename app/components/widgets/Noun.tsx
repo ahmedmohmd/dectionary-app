@@ -19,14 +19,12 @@ const Noun = () => {
         <h3 className="text-[#777] text-2xl md:text-3xl dark:text-gray-50">
           Meaning
         </h3>
-
         <ul className="dark:text-gray-300 text-gray-600">
           {data?.noun?.definitions.map((noun) => {
             return <li key={noun?.definition}>{noun?.definition}</li>;
           })}
         </ul>
       </div>
-
       <div className="mt-6 flex justify-start items-center gap-4 ">
         <h3 className="text-[#777] text-2xl  md:text-3xl dark:text-gray-50">
           Synoyms
