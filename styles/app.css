@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  outline: none;
+}
+
 select,
 input {
   --tw-ring-shadow: none !important;

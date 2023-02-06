@@ -25,7 +25,7 @@ const Noun = () => {
           })}
         </ul>
       </div>
-      <div className="mt-6 flex justify-start items-center gap-4 ">
+      <div className="mt-6 flex justify-start items-start md:items-center gap-4 ">
         <h3 className="text-[#777] text-2xl  md:text-3xl dark:text-gray-50">
           Synoyms
         </h3>
