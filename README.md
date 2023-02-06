@@ -4,7 +4,7 @@
 
 # Description
 
-## Simple Dectionary Web App that let you to search about any English Word with nice Features and Design.
+Simple Dectionary Web App that let you to search about any English Word with nice Features and Design.
 
 # App Features
 
