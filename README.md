@@ -1,4 +1,4 @@
-# My Official Website
+# Dictionary App
 
 ---
 
